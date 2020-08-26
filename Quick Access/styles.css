@@ -1,0 +1,567 @@
+* {
+  padding: 0;
+}
+@font-face {
+  font-family: 'metropolisregular';
+  src: url('metropolis.regular-webfont.woff2') format('woff2'),
+    url('metropolis.regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'cera_promedium';
+    src: url('cera_pro_medium-webfont.woff2') format('woff2'),
+         url('cera_pro_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.body1 {
+  padding: 50px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.font1 {
+  font-family: 'cera_promedium', sans-serif;
+}
+
+.font2 {
+  font-family: 'metropolisregular', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  width: 60px;
+  height: 100%;
+  background-color: #2D3E50;
+  padding: 30px 0 200px 0;
+  background: #2D3E50 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: fixed;
+}
+
+.sidebaricon {
+  color: white;
+  text-align: center;
+}
+
+.wrapper .sidebar ul li {
+  padding: 15px;
+}
+
+.navbar {
+  margin-left: 50px;
+}
+
+.heading {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  color: var(--unnamed-color-2d3e50);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #2D3E50;
+  opacity: 1;
+}
+
+.image {
+  max-width: 25px;
+  width: 100%;
+  border-radius: 50%;
+  background: transparent url('img/Ellipse 234.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.searchbar1 {
+  margin-left: 353px;
+  margin-right: 363px;
+}
+
+.searchbar
+{
+  visibility: hidden;
+}
+#navbarDropdown {
+  color: #333333;
+}
+
+.search {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: 0% 0% no-repeat padding-box;
+  box-shadow: 1px 3px 10px #00000029;
+  border-radius: 31px;
+  opacity: 1;
+}
+
+.border1 {
+  color: #3598DB;
+  border-radius: 100px;
+  background: var(--unnamed-color-3598db) 0% 0% no-repeat padding-box;
+  background: #3598DB 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.border {
+  border-radius: 100px;
+}
+
+.border::placeholder {
+  text-align: center;
+}
+
+
+/* tab bar */
+.tab {
+  background-color: #f1f1f1;
+  margin-top: 2%;
+  padding-top: 0.8%;
+}
+
+.tabitem {
+  width: 12%;
+  border-right: 1px ridge;
+  border-color: #00000033;
+}
+
+.activetab {
+  background-color: white;
+}
+
+.nav-tabs>li .close {
+  margin: 0 0 0 10px;
+  font-size: 18px;
+}
+
+.link {
+  color: #3598DB;
+}
+
+.first-section {
+  width: 80%;
+}
+
+.second-section {
+  width: 25%;
+  padding: 3.15rem 0 2rem 2rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 1px 3px 10px #00000033;
+border: 1px solid #97979726;
+border-radius: 8px;
+opacity: 1;
+
+}
+
+.body1 {
+  padding-top: 3.75rem;
+  padding-left: 11.25rem;
+}
+
+.easy-access-text {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #3598DB;
+}
+
+.button1 {
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.button {
+  border-radius: 20px;
+  width: 10rem;
+  font-size: 0.875rem;
+  margin-right: 1.5rem;
+
+}
+
+.task-icon {
+  margin-left: 0.5rem;
+}
+
+.button2 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.buttons {
+  width: 15rem;
+  box-shadow: 1px 3px 10px #00000033;
+  opacity: 1;
+  height: 3.5rem;
+  margin-right: 1.5rem;
+  color:#00000082;
+}
+.icons
+{
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.green
+{
+  color: #51C46D;
+}
+.blue
+{
+  color: #297FB8;
+}
+.violet
+{
+  color: #8C60EB;
+}
+.yellow {
+  color: #FDCA3B;
+}
+.dashboard-item
+{
+  font-family: 'Metrophobic', sans-serif;
+  margin-left: 0.7rem;
+  font-size: 1.5rem;
+}
+.subtitle
+{
+  color: #333333;
+  font-size: 1.1rem;
+}
+
+.cards
+{
+  margin-top: 1rem;
+  height: 6rem;
+  position: relative;
+}
+
+.details
+{
+  color: #3598DB;
+  font-size: 0.8rem;
+}
+.star1-icon
+{
+  position: absolute;
+  font-size: 1.7rem;
+  top: 1rem;
+  color: #FDCA3B;
+  right: 1rem;
+}
+.card
+{
+  position:relative;
+    width: 15rem;
+  display: inline-block;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.card-icon
+{
+  font-size: 5rem;
+  margin: 1.5rem 4rem 1rem 4rem;
+
+}
+.cards-text
+{
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+.cards-text1
+{
+  text-align:center;
+  color: #979797;
+  font-size: 1rem;
+}
+.section
+{
+  margin-bottom: 1.5rem;
+}
+.card-footer
+{
+  background-color: white;
+}
+.text1
+{
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+.text2
+{
+  display: inline-block;
+  margin-left: 0.8rem;
+}
+
+
+.fa-icon {
+  color: #3598DB;
+  margin-right: 1rem;
+}
+
+
+.profile-pic
+{
+  width: 9rem;
+  border-radius: 100px;
+
+}
+.fsecond
+{
+  position: relative;
+}
+.s-text
+{
+  font-size: 1rem;
+}
+.profile
+{
+  position:absolute;
+  top: 0;
+  right: 1.5rem;
+
+}
+.profilei
+{
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}
+.logout
+{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+.picture
+{
+  margin: 3rem 2rem 1.5rem 6.5rem;
+  text-align: center;
+}
+.picturetext
+{
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+.Messages
+{
+  margin:1.5rem 0 2.5rem 0;
+}
+.msg
+{
+  font-size: 1rem;
+}
+
+.icon-1
+{
+  position: absolute;
+  font-size: 0.8rem;
+  right: 1.5rem;
+}
+.msg-img
+{
+  width: 12%;
+  border-radius: 100px;
+  float: left;
+
+}
+.message
+{
+  margin: 1.5rem 1rem 1.5rem 0;
+}
+
+.msg-box
+{
+
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+position: relative;
+left: 3rem;
+border:1px ridge;
+padding-left: 0;
+width: 18rem;
+margin-right: 1rem;
+
+}
+.msg-text
+{
+  text-align: left;
+  padding-left: 0;
+}
+.red {
+  color: #EC4551;
+}
+
+.licon
+{
+    font-size: 1.5rem;
+    padding:1rem;
+    border-radius: 20px;
+}
+.green-i
+{
+  background-color: #E0FADC;
+}
+.blue-i
+{
+  background-color: #D3EEFF;
+}
+.red-i
+{
+  background-color: #F9C7CA;
+}
+
+.ra
+{
+  padding: 1.5rem 0 10rem 0;
+}
+
+.task
+{
+  margin: 2rem 0 0.5rem 0;
+}
+.time
+{
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-left: 7rem;
+}
+.taskc
+{
+  display: inline-block;
+}
+.timef
+{
+  margin-left:4rem;
+  text-align: left;
+}
+
+
+@media(max-width: 1600px)
+{
+
+  .body1
+  {
+    padding-left: 7.5rem;
+    padding-right: 0;
+  }
+  .heading-1
+  {
+    font-size: 2.5rem;
+  }
+  .buttons
+  {
+    width: 12.5rem;
+    margin-right: 1rem;
+    padding-left: 0.5rem;
+  }
+  .icons
+  {
+    margin-right: 0.4rem;
+  }
+  .dashboard-item
+  {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .card
+  {
+    position:relative;
+      width: 12.5rem;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .star1-icon
+  {
+    font-size: 1.4rem;
+  }
+
+  .card-icon
+  {
+    font-size: 4rem;
+    margin: 1.5rem 4rem 1rem 4rem;
+
+  }
+  .cards-text
+  {
+    font-size: 1rem;
+  }
+  .cards-text1
+  {
+    font-size: 0.8rem;
+  }
+  .text1
+  {
+    font-size: 0.8rem;
+  }
+  .text2
+  {
+    font-size: 0.8rem;
+    margin-left: 0.4rem;
+  }
+  .time
+  {
+    font-size: 0.6rem;
+    position: relative;
+    top: -2.7rem;
+    left: 4rem;
+  }
+
+  .timef
+  {
+    position: relative;
+    font-size: 0.8rem;
+    top: -2.8rem;
+    right: 0.5rem;
+  }
+  .second-section
+  {
+    overflow: hidden;
+    padding: 3.15rem 1 2rem 1.5rem;
+    width: 22%;
+  }
+  .msg-box
+  {
+    width: 15rem;
+    left: 1rem;
+    border: 0px;
+
+  }
+.msg-text
+{
+  font-size: 0.9rem;
+}
+.profile-pic
+{
+  width: 70%;
+}
+.picture
+{
+  text-align: center;
+  margin: 2.5em;rem 0 2rem 0;
+}
+.taskc
+{
+  font-size: 0.9rem;
+  position: relative;
+  top: -0.7rem;
+  left: 0.5rem;
+}
+.task
+{
+  margin: 2rem 0 0.5rem 0;
+  height: 4rem;
+}
+.licon
+{
+    font-size: 1rem;
+    padding:0.8rem;
+    border-radius: 10px;
+}
+}
